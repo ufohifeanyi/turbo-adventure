@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../gig"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "hotel"
+	}
+}

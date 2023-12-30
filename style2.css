@@ -1,0 +1,559 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppin',sans-serif;
+}
+.container{
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 10px;
+    background-color:;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.first h2{
+    font-size: 15px;
+}
+ .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nav-list li{
+    margin-right: 20px;
+}
+.nav-list a{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+}
+.nav-list a:hover{
+    background-color: green;
+    border-radius: 4px;
+    padding: 5px;
+    color: antiquewhite;
+    font-size: 15px;
+    width: 50%;
+}
+.menu-toggle{
+    cursor: pointer;
+    display: none;
+}
+.bar{
+    display: block;
+    width: 50px;
+    height: 5px;
+    background-color: #000;
+    margin: 5px 0;
+}
+.login{
+    border: 1px solid #000;
+    border-radius: 6px;
+    padding:3px 18px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(to right,rgba(2, 2, 2, 0.756),rgba(2, 2, 2, 0.755)), url(img/con1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: antiquewhite;
+    animation: change 30s ease-in-out infinite;
+}
+@keyframes change{
+    0%{background-image:linear-gradient(to right,rgba(2, 2, 2, 0.756),rgba(2, 2, 2, 0.755)), url(img/con1.jpg);}
+    50%{background-image:linear-gradient(to right,rgba(2, 2, 2, 0.756),rgba(2, 2, 2, 0.755)), url(img/con2.jpg);}
+    100%{background-image:linear-gradient(to right,rgba(2, 2, 2, 0.756),rgba(2, 2, 2, 0.755)), url(img/con3.jpg);}
+}
+.con-hold{
+    text-align: center;
+    line-height: 1.4;
+    text-transform: capitalize;
+}
+.con-hold h2{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.vlog{
+    color: aqua;
+}
+.con-hold p{
+    font-size: 16px;
+    margin-bottom:20px ;
+}
+.con-hold button{
+    border: none;
+    border-radius: 3px;
+    color: antiquewhite;
+    padding: 10px;
+    text-transform: capitalize;
+    width: 30%;
+    background-color: rgba(0, 0, 255, 0.534);
+}
+.infinix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 241, 241);
+   height: 70vh;
+   padding: 20px;
+   gap: 30px;
+   margin-bottom: 2rem;
+    border-bottom: 2px solid antiquewhite;
+}
+.infi-1{
+    width: ;
+}
+.infi-2{
+    width: 50%;
+    background-color: #fffdfdb6;
+    box-shadow: 2px 2px 0px 0px #00000085;
+    padding: 15px;
+}
+.infi-2 h3{
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.infi-2 p{
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+.infi-1 ul li{
+    display: flex;
+    background-color: #ffffffab;
+    box-shadow: 2px 2px 0px 0px #00000085;
+    border-radius: px;
+    line-height: 1.3;
+    padding: 10px;
+    margin-bottom: 7px;
+    gap: 20px;  
+}
+.para{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+}
+.pa{
+    font-size: 10px;
+}
+.in{
+    display: ;
+    width: ;
+    margin-bottom: 10px;
+}
+.in input{
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 40%;
+}
+.in input:focus{
+    outline: none;
+    background-color:;
+    border: 1px solid aqua;
+}
+.btm{
+    border: none;
+    border-radius: 3px;
+    color: antiquewhite;
+    padding: 10px;
+    text-transform: capitalize;
+    width: 35%;
+    background-color: rgb(0, 0, 255); 
+}
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.pap{
+    width:50% ;
+    text-align: center;
+}
+.pap h3{
+    font-size: 25px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.pap p{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.pic{
+    background-image: linear-gradient(to right,rgba(5, 5, 5, 0.256),rgba(5, 5, 5, 0.256));
+}
+.pic img{
+    width: 100%;
+}
+.start{
+    background-image:linear-gradient(to right,rgba(5, 5, 5, 0.47),rgba(5, 5, 5, 0.441)),url(img/log.jpg) ;
+    width: 100%;
+    border-radius: 4px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 5rem;
+}
+.strt{
+    color: antiquewhite;
+    text-align: center;
+}
+.sit{
+    color: aqua;
+}
+.strt h3{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.fill{
+    position: absolute;
+    bottom: -40px;
+    right: 130px;
+    background-color: #fff;
+    box-shadow: 2px 2px 0px 0px #000000a4;
+    width: 60%;
+    height: 20%;
+    display: flex;
+
+}
+.form{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.f2{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgb(136, 95, 41);
+    height: ;
+    width:26.6%;
+    padding: 10px;
+}
+.hotel{
+    margin-bottom: 15px;
+}
+label{
+    font-weight: 600;
+    font-size: 13px;
+}
+select{
+    border: none;
+    font-weight: 500;
+}
+.nt{
+    width: 20%;
+    height:;
+    background-color: rgb(136, 95, 41);
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px;
+}
+.hti1{
+    display: flex;
+    box-shadow: 2px 2px 0px 0px rgb(234, 234, 234);
+    border-radius: 4px;
+}
+.pho{width: 50%;}
+.pho-img{width: 100%; height: 100%;}
+.pho-img img{width: 100%; height: 100%;}
+.phi{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.php{
+    width: 80%;
+    padding: 30px;
+}
+.h{
+    margin-bottom: 10px;
+}
+.h p{
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+.h h3{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.h1 p{
+    font-size: 10px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    width: 50%;
+}
+.d2{
+    font-size: 15px;
+    color: rgb(69, 41, 4);
+    font-weight: 800;
+}
+.hi ul{
+    margin-bottom: 40px;
+}
+.h1 ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    margin-bottom: 6px;
+}
+.ancho{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.ancho a{
+     text-decoration: none;
+     background-color:rgb(69, 41, 4);
+     padding: 10px;
+     text-align: center;
+     color: #fff;
+     width: 30%;
+     font-size: 12px;
+
+}
+.acv{
+    text-decoration: none;
+     border-bottom:2px solid rgb(95, 60, 15);
+     padding: 10px;
+     background: none;
+     width: 30%;
+
+    font-size: 11px;
+}
+.hre{
+    color: rgb(69, 41, 4);
+    border-bottom:2px solid rgb(69, 41, 4) ;
+}
+.load{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.load button{
+    border: 2px solid rgb(67, 39, 3);
+    width: 30%;
+    color: rgb(118, 69, 5);
+    padding: 10px;
+    border-radius: 3px;
+}
+footer{
+    background-color: rgba(72, 208, 208, 0.275);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    padding: 30px;
+}
+.ft{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.ft h3{
+    font-size: 18px;
+    font-weight: 800;
+}
+.ft p{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+.lastin {
+    padding: 5px;
+    font-size: 13px;
+    color: blue;
+}
+.lstbut {
+    padding: 9px;
+    width: 10%;
+    border: none;
+    font-size: 11px;
+    background-color: blue;
+    color:#fff;
+}
+form input:focus{
+    outline: none;
+    border: 1px solid aqua;
+}
+.ftt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.f9,.f8{
+    width: 50%;
+}
+.f9  p{
+    font-size: 13px;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.imh{
+    display: flex;
+    gap: 40px;
+}
+.imh img{
+    background-color: #fff;
+    width: 10%;
+    border-radius: 50%;
+    padding: 5px;
+}
+.abot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: ;
+}
+.ab1{
+    padding: 20px;
+}
+.ab1 p{
+    font-weight: 800;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.ab1 ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 9px;
+}
+@media only screen and (max-width:768px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        width: 90%;
+        height: 100vh;
+        margin: 0 auto;
+        padding: 10px;
+        overflow-x: hidden;
+    } 
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+    .navbar{
+        
+    }
+    .nav-list{
+        display: none;
+        flex-direction: column;
+        width: 50%;
+        height: 70vh;
+        padding: 10px;
+        position: absolute;
+        bottom: 38px;
+        right: 29px;
+        background-color: rgba(240, 248, 255, 0.99);
+        border: 1px solid green;
+        border-radius: 5px;
+        color: antiquewhite;
+        text-align: center;
+        z-index: 1;
+    }
+    .nav-list.show{
+        display: flex;
+        align-items: center;
+    }
+    .nav-list a{
+        font-size: 20px;
+        color: #000;
+        font-weight: 600;
+        display: inline-block;
+        margin-bottom: 1.8rem;
+    }
+    .login{
+        border: none;
+    }
+    .menu-toggle{
+        display: block;
+    }
+    .con-hold p{
+        font-size: 13px;
+    }
+    .infinix{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .infi-1,.infi-2{
+        width: 100%;
+    }
+    textarea{
+        width: 95%;
+    }
+    .pap{
+        width: 100%;
+    }
+    .infi-1 ul li{
+        justify-content: space-between;
+    }
+    .fill{
+        gap: 32px;
+    }
+    label{
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .nt{
+        font-size: 13px;
+    }
+    .hti1{
+        display: block;
+        margin-bottom: 25px;
+    }
+    .pho,.phi{
+        width: 100%;
+    }
+    footer{
+        padding: 30px;
+    }
+    .ft h3{
+        font-size: 16px;
+    }
+    .lstbut{
+        width: 30%;
+    }
+    .ftt{
+        padding: 0;
+    }
+    .f9, .f8{
+        width: 100%;
+    }
+
+}
